@@ -1,0 +1,14 @@
+{
+    "scan_ports": "1-1000",
+    "scan_arguments": "-sV -O",
+    "monitor_timeout": 60,
+    "ddos_threshold": 1000,
+    "email_alerts": {
+        "server": "smtp.example.com",
+        "port": 587,
+        "user": "alerts@example.com",
+        "password": "motdepasse",
+        "from": "alerts@example.com",
+        "to": "admin@example.com"
+    }
+}
